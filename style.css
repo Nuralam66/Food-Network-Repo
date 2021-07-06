@@ -1,0 +1,34 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 150px;
+}
+section{
+    display: flex;
+}
+.orange-color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width image{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    color: white;
+    padding: 10px,40px;
+    border-radius: 10px;
+    
+}
+.top-benner{
+    background-image: url(image/Group\ 8450.png);
+    background-repeat: no-repeat;
+}
+
+
+
