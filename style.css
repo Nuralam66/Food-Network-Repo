@@ -2,10 +2,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 150px;
+    font-size: 50px;
 }
-section{
+ .flexble-cointiner  {
     display: flex;
+    bottom: 5px;
 }
 .orange-color{
     color: orange;
@@ -15,7 +16,10 @@ section{
     padding: 5%;
 }
 .half-width image{
-    width: 100%;
+    width: 80%;
+}
+.pic{
+    width: 400px;
 }
 .link-button{
     text-decoration: none;
@@ -29,6 +33,39 @@ section{
     background-image: url(image/Group\ 8450.png);
     background-repeat: no-repeat;
 }
+.Bangladesh{
+    background-image: url(image/7.png);
+    background-repeat: no-repeat;
+}
+footer h2{
+    text-align: center;
+}
+footer h3{
+    text-align: center;
+}
 
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.food-cout{
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+   box-shadow: 7px 7px 7px 7px gray;
+   border-radius: 15px;
 
+}
+.food-cout img{
+    width: 100%;
+}
+.End{
+    text-align: center;
+    padding: 20px;
+    background-color: black ;
+    color: white;
+    margin-top: 50px;
+}
 
